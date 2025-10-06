@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12e0f0b-3af0-4668-a608-d07d576397f1" name="Changes" comment="Quotes added and input and output function tested(working).">
+    <list default="true" id="c12e0f0b-3af0-4668-a608-d07d576397f1" name="Changes" comment="try/catch exceptions added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/FamousQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/FamousQuotes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,12 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759760307222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try/catch exceptions added.">
+      <option name="closed" value="true" />
+      <created>1759760716461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759760716461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Quotes added and input and output function tested(working)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Quotes added and input and output function tested(working)." />
+    <MESSAGE value="try/catch exceptions added." />
+    <option name="LAST_COMMIT_MESSAGE" value="try/catch exceptions added." />
   </component>
 </project>

@@ -14,7 +14,7 @@ public class FamousQuotes {
         BONUS: Add a loop to the program asks the user if they want to see another
         saying. If they say yes, repeat the process. DO NOT shut the application down
         when if an exception occurs. Just pick up with the next iteration.
-                BONUS: Allow the user to select an option that will display a random quote.
+        BONUS: Allow the user to select an option that will display a random quote.
          */
         boolean run = true;
         while (run){
@@ -32,13 +32,15 @@ public class FamousQuotes {
                             , "“Be tolerant with others and strict with yourself.” – Marcus Aurelius\n"
                     };
             Scanner scan = new Scanner(System.in);
-            System.out.print("Please type any number between 1-10:");
+            System.out.print("Please type any number between 0-9:");
         int index = scan.nextInt();
         System.out.println(quotes[index]);
-        run = false;
+                System.out.print("One more?(Y/N):");
+                String index0 = scan.nextLine();
+                scan.nextLine();
 
             } catch (Exception e) {
-                System.out.println("Please enter a number between 1-10, and try again.");
+                System.out.println("Please enter a number between 0-9, and try again.");
             }
         }
 }}
