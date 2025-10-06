@@ -1,5 +1,4 @@
 package com.pluralsight;
-
 import java.util.Scanner;
 
 public class FamousQuotes {
@@ -19,6 +18,7 @@ public class FamousQuotes {
          */
         boolean run = true;
         while (run){
+            try{
             String[] quotes =
                     {         "Waste no more time arguing what a good man should be. Be One. – Marcus Aurelius\n"
                             , "“It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own.” – Marcus Aurelius\n"
@@ -35,6 +35,10 @@ public class FamousQuotes {
             System.out.print("Please type any number between 1-10:");
         int index = scan.nextInt();
         System.out.println(quotes[index]);
+        run = false;
 
-    }
+            } catch (Exception e) {
+                System.out.println("Please enter a number between 1-10, and try again.");
+            }
+        }
 }}
